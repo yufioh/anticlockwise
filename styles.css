@@ -241,11 +241,11 @@ header {
 }
  
 i.fas.fa-pause:hover{
-  cursor: url(cursor.png), auto;
+  cursor: pointer;
 }
 
 i.fas.fa-play:hover{
-  cursor: url(cursor.png), auto;
+  cursor: pointer;
 }
  
 i.fas.fa-pause{
@@ -406,7 +406,7 @@ i.fas.fa-play{
       outline-offset: -4px;
       user-select: none;
       transition: 0.3s;
-      cursor: url(cursor.png), auto;
+      cursor: pointer;
 }
 
 .menu-btn:hover {
@@ -454,6 +454,7 @@ i.fas.fa-play{
   color:white;
   text-decoration:none;
   font-size:25px !important;
+  cursor: pointer;
 }
  
  

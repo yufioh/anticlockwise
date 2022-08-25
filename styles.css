@@ -277,6 +277,7 @@ i.fas.fa-play{
   );
   z-index: 99999999999999999999;
   font-family: 'HYWenHei-85W';
+  z-index: 999999999999999;
 }
 
 .player-card {

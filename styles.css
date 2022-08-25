@@ -81,7 +81,7 @@ body {
 .hazehate-button:hover { color:var(--pink); }
 .hazehate-button i::before { line-height:30px; }
 .hazehate input { display:none; }
-.hazehate label { position:absolute;z-index:10;font:900 15px var(--mono);line-height:16px;margin:15px 20px;color:var(--back1);cursor:pointer;mix-blend-mode:overlay;transition:.3s; }
+.hazehate label { position:absolute;z-index:9;font:900 15px var(--mono);line-height:16px;margin:15px 20px;color:var(--back1);cursor:pointer;mix-blend-mode:overlay;transition:.3s; }
 .hazehate input:checked + label, .hazehate label:hover { mix-blend-mode:normal; }
 
 #particles-js { height:450px;width:650px;grid-column:1 / 2;grid-row:1 / 2;position:relative;z-index:4;opacity:.5;pointer-events:none; }

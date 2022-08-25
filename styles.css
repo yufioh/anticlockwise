@@ -277,7 +277,6 @@ i.fas.fa-play{
   );
   z-index: 99999999999999999999;
   font-family: 'HYWenHei-85W';
-  z-index: 999999999999999;
 }
 
 .player-card {
@@ -560,6 +559,15 @@ i.fas.fa-play{
   animation-delay: 1.2s;
 }
 
+.desktop {
+  display: inline;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 769px){  
+  .desktop { display: none;}
+}
 
 .ag-format-container {
   width: 1142px;
